@@ -11,7 +11,7 @@ There are only have two files, **soz.py** and **abc.txt**. You can download this
 
 
 ### Code anatomy
-'''python
+```python
 # -*- coding: utf8 -*-
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt 
@@ -26,10 +26,9 @@ wc.generate(f)
 plt.imshow(wc, interpolation="bilinear")
 plt.axis("off")
 plt.show()
-
-'''
+```
 ### كود چۈشەندۈرۈش
-'''python
+```python
 # -*- coding: utf8 -*-
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt 
@@ -44,8 +43,7 @@ wc.generate(f)
 plt.imshow(wc, interpolation="bilinear")
 plt.axis("off")
 plt.show()
-
-'''
+```
 
 
 
