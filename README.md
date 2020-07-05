@@ -41,30 +41,30 @@ plt.show()
 ```python
 # -*- coding: utf8 -*-
 from wordcloud import WordCloud
-#
+#سۆز بۇلۇت بولىقى
 import matplotlib.pyplot as plt 
-#
+#مەت پلوت رەسىم بولىقى
 from bidi.algorithm import get_display
-#
+#بىدى ئالگورىزىمى، ئوڭدىن سڭلغا يېزىلىدىغان يېزىقلار ئۈچۈن ئىنتايىن مۇھېمدۇر
 import arabic_reshaper
-#
+#ئوڭدىن سولغا يېزىلدىغان يېزىقنى شەكىللەندۈرۈش
 path_txt='a.txt'
-#
+#تېكسىت ھۆججەت نام ۋە يولى
 f = open(path_txt,'r',encoding='UTF-8').read()
-#
+#تېكسىت ھۆججىتىنى ئېچىش
 reshaped_text = arabic_reshaper.reshape(f)
 f = get_display(reshaped_text)
-#
+#تېكسىتنى ئايرىپ شەكىللەندۈرۈش
 wc= WordCloud(font_path="ALKATIP Elipbe.ttf",background_color="white",width=1000,height=880)
-#
+#سۆز بۇلىتى رەسىم كۆزنىكىنىڭ خاسلىقى ،مەسىلەن خەت نۇسخىسى،چوڭ كىچىكلىكى قاتارلىقلار
 wc.generate(f)
-#
+#سۆز بۇلىتى ھاسىل قىلىش
 plt.imshow(wc, interpolation="bilinear")
 plt.axis("off")
 plt.show()
-#
+#سۆز بۇلىتى رەسىمىنى سىزىش
 ```
-
+### Picture رەسىملەر
 
 
 
