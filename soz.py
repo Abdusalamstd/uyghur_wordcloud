@@ -3,7 +3,7 @@ from wordcloud import WordCloud
 import matplotlib.pyplot as plt 
 from bidi.algorithm import get_display
 import arabic_reshaper
-path_txt='a.txt'
+path_txt='abc.txt'
 f = open(path_txt,'r',encoding='UTF-8').read()
 reshaped_text = arabic_reshaper.reshape(f)
 f = get_display(reshaped_text)
