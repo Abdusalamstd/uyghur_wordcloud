@@ -67,13 +67,7 @@ plt.show()
 ### Picture رەسىملەر
 ![WordCloud](/Figure_1.png)
 
-
-
-
-
-
-
-
-
-
-
+# Bug &Help قىيىن مەسىلە
+### It seems one alphabet cannot be connected before and after.Below picture:
+###  . ئە  ھەرپى ئۇلانمايۋاتىدۇ . ھەل قىپ بىرىڭلار  رەسىمدىكىدەك
+![WordCloud](/prob.png)
