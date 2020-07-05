@@ -66,7 +66,7 @@ plt.show()
 ```
 ### Picture رەسىملەر
 
-
+!https:://github.com/Abdusalamstd/uyghur_wordcloud/Figure_1.png
 
 
 
