@@ -65,8 +65,8 @@ plt.show()
 #سۆز بۇلىتى رەسىمىنى سىزىش
 ```
 ### Picture رەسىملەر
+![WordCloud](/Figure_1.png)
 
-!https:://github.com/Abdusalamstd/uyghur_wordcloud/Figure_1.png
 
 
 
